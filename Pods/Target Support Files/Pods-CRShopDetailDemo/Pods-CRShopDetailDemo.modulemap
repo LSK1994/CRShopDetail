@@ -1,0 +1,6 @@
+framework module Pods_CRShopDetailDemo {
+  umbrella header "Pods-CRShopDetailDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,32 @@
+PODS:
+  - HMSegmentedControl (1.5.4)
+  - Masonry (1.1.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - HMSegmentedControl
+  - Masonry
+  - SDWebImage
+  - YYCategories
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HMSegmentedControl
+    - Masonry
+    - SDWebImage
+    - YYCategories
+
+SPEC CHECKSUMS:
+  HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: fd5a2215afe1bc60d11108a4fd32ab0397d2d93f
+
+COCOAPODS: 1.5.0
