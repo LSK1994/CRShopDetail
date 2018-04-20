@@ -12,7 +12,27 @@
 		DB876930208742C00022E1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB87692F208742C00022E1B0 /* Assets.xcassets */; };
 		DB876933208742C00022E1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB876931208742C00022E1B0 /* LaunchScreen.storyboard */; };
 		DB876936208742C00022E1B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB876935208742C00022E1B0 /* main.m */; };
-		DB8769422087462B0022E1B0 /* CRShopDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8769412087462B0022E1B0 /* CRShopDetailController.m */; };
+		DB8769422087462B0022E1B0 /* CRDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8769412087462B0022E1B0 /* CRDetailController.m */; };
+		DB876945208752360022E1B0 /* CRDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB876944208752360022E1B0 /* CRDetailModel.m */; };
+		DB876948208753EC0022E1B0 /* CRProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB876947208753EC0022E1B0 /* CRProductModel.m */; };
+		DB87694B2087559E0022E1B0 /* CRHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87694A2087559E0022E1B0 /* CRHeaderView.m */; };
+		DB87694E208756B80022E1B0 /* CRConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87694D208756B80022E1B0 /* CRConst.m */; };
+		DB876951208886BD0022E1B0 /* CRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB876950208886BD0022E1B0 /* CRNavigationBar.m */; };
+		DB87695420888E820022E1B0 /* CRBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87695320888E820022E1B0 /* CRBottomBar.m */; };
+		DB87695720888F380022E1B0 /* UIButton+CRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87695520888F370022E1B0 /* UIButton+CRExtension.m */; };
+		DB87695A208891A00022E1B0 /* CRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8769592088919F0022E1B0 /* CRTableViewCell.m */; };
+		DB87695D208891DC0022E1B0 /* CRSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87695C208891DC0022E1B0 /* CRSegmentCell.m */; };
+		DB876960208892FE0022E1B0 /* HMSegmentedControl+CRExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87695F208892FE0022E1B0 /* HMSegmentedControl+CRExtention.m */; };
+		DB876963208894EC0022E1B0 /* CRContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB876962208894EC0022E1B0 /* CRContentView.m */; };
+		DB8769662088960F0022E1B0 /* UIScrollView+CRExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8769652088960F0022E1B0 /* UIScrollView+CRExtention.m */; };
+		DB87696B2088C94F0022E1B0 /* UIView+CRExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87696A2088C94F0022E1B0 /* UIView+CRExtention.m */; };
+		DB87696E2088CC180022E1B0 /* CRAllProductView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87696D2088CC180022E1B0 /* CRAllProductView.m */; };
+		DB8769722088CCEC0022E1B0 /* CRHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8769712088CCEC0022E1B0 /* CRHomeView.m */; };
+		DB8769752088CD0E0022E1B0 /* CRMoments.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8769742088CD0E0022E1B0 /* CRMoments.m */; };
+		DB8769782088CD370022E1B0 /* CRSegmentItemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8769772088CD370022E1B0 /* CRSegmentItemBase.m */; };
+		DB87697B208983250022E1B0 /* CRSortBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87697A208983250022E1B0 /* CRSortBar.m */; };
+		DB87697F208986760022E1B0 /* CRProductLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87697E208986760022E1B0 /* CRProductLayout.m */; };
+		DB876982208986F80022E1B0 /* CRProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB876981208986F80022E1B0 /* CRProductCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +45,49 @@
 		DB876932208742C00022E1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB876934208742C00022E1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB876935208742C00022E1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DB8769402087462B0022E1B0 /* CRShopDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRShopDetailController.h; sourceTree = "<group>"; };
-		DB8769412087462B0022E1B0 /* CRShopDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRShopDetailController.m; sourceTree = "<group>"; };
+		DB8769402087462B0022E1B0 /* CRDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRDetailController.h; sourceTree = "<group>"; };
+		DB8769412087462B0022E1B0 /* CRDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRDetailController.m; sourceTree = "<group>"; };
+		DB876943208752360022E1B0 /* CRDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRDetailModel.h; sourceTree = "<group>"; };
+		DB876944208752360022E1B0 /* CRDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRDetailModel.m; sourceTree = "<group>"; };
+		DB876946208753EC0022E1B0 /* CRProductModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRProductModel.h; sourceTree = "<group>"; };
+		DB876947208753EC0022E1B0 /* CRProductModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProductModel.m; sourceTree = "<group>"; };
+		DB8769492087559E0022E1B0 /* CRHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRHeaderView.h; sourceTree = "<group>"; };
+		DB87694A2087559E0022E1B0 /* CRHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRHeaderView.m; sourceTree = "<group>"; };
+		DB87694C208756B80022E1B0 /* CRConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRConst.h; sourceTree = "<group>"; };
+		DB87694D208756B80022E1B0 /* CRConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRConst.m; sourceTree = "<group>"; };
+		DB87694F208886BD0022E1B0 /* CRNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRNavigationBar.h; sourceTree = "<group>"; };
+		DB876950208886BD0022E1B0 /* CRNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRNavigationBar.m; sourceTree = "<group>"; };
+		DB87695220888E820022E1B0 /* CRBottomBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRBottomBar.h; sourceTree = "<group>"; };
+		DB87695320888E820022E1B0 /* CRBottomBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRBottomBar.m; sourceTree = "<group>"; };
+		DB87695520888F370022E1B0 /* UIButton+CRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CRExtension.m"; sourceTree = "<group>"; };
+		DB87695620888F380022E1B0 /* UIButton+CRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CRExtension.h"; sourceTree = "<group>"; };
+		DB8769582088919F0022E1B0 /* CRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTableViewCell.h; sourceTree = "<group>"; };
+		DB8769592088919F0022E1B0 /* CRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTableViewCell.m; sourceTree = "<group>"; };
+		DB87695B208891DC0022E1B0 /* CRSegmentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSegmentCell.h; sourceTree = "<group>"; };
+		DB87695C208891DC0022E1B0 /* CRSegmentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSegmentCell.m; sourceTree = "<group>"; };
+		DB87695E208892FE0022E1B0 /* HMSegmentedControl+CRExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMSegmentedControl+CRExtention.h"; sourceTree = "<group>"; };
+		DB87695F208892FE0022E1B0 /* HMSegmentedControl+CRExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HMSegmentedControl+CRExtention.m"; sourceTree = "<group>"; };
+		DB876961208894EC0022E1B0 /* CRContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRContentView.h; sourceTree = "<group>"; };
+		DB876962208894EC0022E1B0 /* CRContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRContentView.m; sourceTree = "<group>"; };
+		DB8769642088960F0022E1B0 /* UIScrollView+CRExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CRExtention.h"; sourceTree = "<group>"; };
+		DB8769652088960F0022E1B0 /* UIScrollView+CRExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CRExtention.m"; sourceTree = "<group>"; };
+		DB8769682088C5C60022E1B0 /* CRMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRMacro.h; sourceTree = "<group>"; };
+		DB8769692088C94F0022E1B0 /* UIView+CRExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CRExtention.h"; sourceTree = "<group>"; };
+		DB87696A2088C94F0022E1B0 /* UIView+CRExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CRExtention.m"; sourceTree = "<group>"; };
+		DB87696C2088CC180022E1B0 /* CRAllProductView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAllProductView.h; sourceTree = "<group>"; };
+		DB87696D2088CC180022E1B0 /* CRAllProductView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAllProductView.m; sourceTree = "<group>"; };
+		DB8769702088CCEC0022E1B0 /* CRHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRHomeView.h; sourceTree = "<group>"; };
+		DB8769712088CCEC0022E1B0 /* CRHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRHomeView.m; sourceTree = "<group>"; };
+		DB8769732088CD0E0022E1B0 /* CRMoments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRMoments.h; sourceTree = "<group>"; };
+		DB8769742088CD0E0022E1B0 /* CRMoments.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRMoments.m; sourceTree = "<group>"; };
+		DB8769762088CD370022E1B0 /* CRSegmentItemBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSegmentItemBase.h; sourceTree = "<group>"; };
+		DB8769772088CD370022E1B0 /* CRSegmentItemBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSegmentItemBase.m; sourceTree = "<group>"; };
+		DB876979208983250022E1B0 /* CRSortBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSortBar.h; sourceTree = "<group>"; };
+		DB87697A208983250022E1B0 /* CRSortBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSortBar.m; sourceTree = "<group>"; };
+		DB87697D208986760022E1B0 /* CRProductLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRProductLayout.h; sourceTree = "<group>"; };
+		DB87697E208986760022E1B0 /* CRProductLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProductLayout.m; sourceTree = "<group>"; };
+		DB876980208986F80022E1B0 /* CRProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRProductCell.h; sourceTree = "<group>"; };
+		DB876981208986F80022E1B0 /* CRProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProductCell.m; sourceTree = "<group>"; };
 		E79E276C80002E5A1ADE8E93 /* Pods-CRShopDetailDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRShopDetailDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRShopDetailDemo/Pods-CRShopDetailDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +158,10 @@
 		DB87693C208743870022E1B0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DB876943208752360022E1B0 /* CRDetailModel.h */,
+				DB876944208752360022E1B0 /* CRDetailModel.m */,
+				DB876946208753EC0022E1B0 /* CRProductModel.h */,
+				DB876947208753EC0022E1B0 /* CRProductModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +169,22 @@
 		DB87693D208743870022E1B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DB87697C208986580022E1B0 /* CollectionView */,
+				DB87696F2088CC2A0022E1B0 /* Bar */,
+				DB876961208894EC0022E1B0 /* CRContentView.h */,
+				DB876962208894EC0022E1B0 /* CRContentView.m */,
+				DB8769492087559E0022E1B0 /* CRHeaderView.h */,
+				DB87694A2087559E0022E1B0 /* CRHeaderView.m */,
+				DB87695B208891DC0022E1B0 /* CRSegmentCell.h */,
+				DB87695C208891DC0022E1B0 /* CRSegmentCell.m */,
+				DB8769762088CD370022E1B0 /* CRSegmentItemBase.h */,
+				DB8769772088CD370022E1B0 /* CRSegmentItemBase.m */,
+				DB8769702088CCEC0022E1B0 /* CRHomeView.h */,
+				DB8769712088CCEC0022E1B0 /* CRHomeView.m */,
+				DB87696C2088CC180022E1B0 /* CRAllProductView.h */,
+				DB87696D2088CC180022E1B0 /* CRAllProductView.m */,
+				DB8769732088CD0E0022E1B0 /* CRMoments.h */,
+				DB8769742088CD0E0022E1B0 /* CRMoments.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +192,12 @@
 		DB87693E208743870022E1B0 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DB8769672088C58E0022E1B0 /* Category */,
+				DB8769682088C5C60022E1B0 /* CRMacro.h */,
+				DB87694C208756B80022E1B0 /* CRConst.h */,
+				DB87694D208756B80022E1B0 /* CRConst.m */,
+				DB8769582088919F0022E1B0 /* CRTableViewCell.h */,
+				DB8769592088919F0022E1B0 /* CRTableViewCell.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -118,10 +205,49 @@
 		DB87693F208743870022E1B0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DB8769402087462B0022E1B0 /* CRShopDetailController.h */,
-				DB8769412087462B0022E1B0 /* CRShopDetailController.m */,
+				DB8769402087462B0022E1B0 /* CRDetailController.h */,
+				DB8769412087462B0022E1B0 /* CRDetailController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB8769672088C58E0022E1B0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DB87695620888F380022E1B0 /* UIButton+CRExtension.h */,
+				DB87695520888F370022E1B0 /* UIButton+CRExtension.m */,
+				DB87695E208892FE0022E1B0 /* HMSegmentedControl+CRExtention.h */,
+				DB87695F208892FE0022E1B0 /* HMSegmentedControl+CRExtention.m */,
+				DB8769642088960F0022E1B0 /* UIScrollView+CRExtention.h */,
+				DB8769652088960F0022E1B0 /* UIScrollView+CRExtention.m */,
+				DB8769692088C94F0022E1B0 /* UIView+CRExtention.h */,
+				DB87696A2088C94F0022E1B0 /* UIView+CRExtention.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DB87696F2088CC2A0022E1B0 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				DB87694F208886BD0022E1B0 /* CRNavigationBar.h */,
+				DB876950208886BD0022E1B0 /* CRNavigationBar.m */,
+				DB87695220888E820022E1B0 /* CRBottomBar.h */,
+				DB87695320888E820022E1B0 /* CRBottomBar.m */,
+				DB876979208983250022E1B0 /* CRSortBar.h */,
+				DB87697A208983250022E1B0 /* CRSortBar.m */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		DB87697C208986580022E1B0 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DB87697D208986760022E1B0 /* CRProductLayout.h */,
+				DB87697E208986760022E1B0 /* CRProductLayout.m */,
+				DB876980208986F80022E1B0 /* CRProductCell.h */,
+				DB876981208986F80022E1B0 /* CRProductCell.m */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +278,7 @@
 		DB87691B208742BE0022E1B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CR;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = cocoaroger;
 				TargetAttributes = {
@@ -240,9 +367,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB87695A208891A00022E1B0 /* CRTableViewCell.m in Sources */,
+				DB876948208753EC0022E1B0 /* CRProductModel.m in Sources */,
+				DB8769722088CCEC0022E1B0 /* CRHomeView.m in Sources */,
+				DB87694B2087559E0022E1B0 /* CRHeaderView.m in Sources */,
 				DB876936208742C00022E1B0 /* main.m in Sources */,
+				DB8769662088960F0022E1B0 /* UIScrollView+CRExtention.m in Sources */,
+				DB876945208752360022E1B0 /* CRDetailModel.m in Sources */,
+				DB87696B2088C94F0022E1B0 /* UIView+CRExtention.m in Sources */,
+				DB8769782088CD370022E1B0 /* CRSegmentItemBase.m in Sources */,
+				DB876963208894EC0022E1B0 /* CRContentView.m in Sources */,
+				DB87695720888F380022E1B0 /* UIButton+CRExtension.m in Sources */,
+				DB87697B208983250022E1B0 /* CRSortBar.m in Sources */,
 				DB876928208742BE0022E1B0 /* AppDelegate.m in Sources */,
-				DB8769422087462B0022E1B0 /* CRShopDetailController.m in Sources */,
+				DB87695420888E820022E1B0 /* CRBottomBar.m in Sources */,
+				DB87697F208986760022E1B0 /* CRProductLayout.m in Sources */,
+				DB876960208892FE0022E1B0 /* HMSegmentedControl+CRExtention.m in Sources */,
+				DB87696E2088CC180022E1B0 /* CRAllProductView.m in Sources */,
+				DB8769752088CD0E0022E1B0 /* CRMoments.m in Sources */,
+				DB876982208986F80022E1B0 /* CRProductCell.m in Sources */,
+				DB876951208886BD0022E1B0 /* CRNavigationBar.m in Sources */,
+				DB87694E208756B80022E1B0 /* CRConst.m in Sources */,
+				DB87695D208891DC0022E1B0 /* CRSegmentCell.m in Sources */,
+				DB8769422087462B0022E1B0 /* CRDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

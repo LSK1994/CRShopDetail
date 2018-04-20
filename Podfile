@@ -8,6 +8,7 @@ def pods
     pod 'SDWebImage'
     pod 'YYCategories'
     pod 'HMSegmentedControl'
+    pod 'MBProgressHUD'
 end
 
 target 'CRShopDetailDemo' do

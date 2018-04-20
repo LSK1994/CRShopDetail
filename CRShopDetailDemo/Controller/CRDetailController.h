@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CRShopDetailController : UIViewController
+@interface CRDetailController : UIViewController
 
 @end

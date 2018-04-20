@@ -6,17 +6,17 @@
 //  Copyright © 2018 cocoaroger. All rights reserved.
 //
 
-#import "CRShopDetailController.h"
+#import "CRDetailController.h"
 
-@interface CRShopDetailController ()
+@interface CRDetailController ()
 
 @end
 
-@implementation CRShopDetailController
+@implementation CRDetailController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 @end

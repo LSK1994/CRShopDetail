@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CRDetailController.h"
+#import <sys/utsname.h>
 
 @interface AppDelegate ()
 
@@ -14,12 +16,22 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    CRDetailController *detailVC = [CRDetailController new];
+    self.window.rootViewController = detailVC;
+    [self.window makeKeyAndVisible];
+    [self printPlatform];
     return YES;
 }
 
+- (void)printPlatform {
+    struct utsname systemInfo;
+    uname(&systemInfo);
+    NSString *platform = [NSString stringWithCString:systemInfo.machine
+                                            encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", platform);
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
