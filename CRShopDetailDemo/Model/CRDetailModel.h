@@ -18,7 +18,13 @@
 @property (copy, nonatomic) NSString *name; // 店铺名
 @property (copy, nonatomic) NSString *fansCount; // 粉丝数
 
+// 请求连接
+@property (copy, nonatomic) NSString *home;
+@property (copy, nonatomic) NSString *allProduct;
+@property (copy, nonatomic) NSString *moments;
+
 - (NSURL *)backgroundURL;
 - (NSURL *)portraitURL;
+
 
 @end

@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol CRDetailNavigationBarDelegate;
+@protocol CRNavigationBarDelegate;
 
 @interface CRNavigationBar : UIView
 
-@property (nonatomic, weak) id<CRDetailNavigationBarDelegate> delegate;
+@property (nonatomic, weak) id<CRNavigationBarDelegate> delegate;
 
 /**
  根据滚动图偏移量改变透明度
@@ -37,7 +37,7 @@
 
 @end
 
-@protocol CRDetailNavigationBarDelegate <NSObject>
+@protocol CRNavigationBarDelegate <NSObject>
 
 // 点击返回
 - (void)navigationBarClickedBack:(CRNavigationBar *)navigationBar;

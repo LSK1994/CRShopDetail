@@ -18,9 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
     CRDetailController *detailVC = [CRDetailController new];
-    self.window.rootViewController = detailVC;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detailVC];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+    
     [self printPlatform];
     return YES;
 }

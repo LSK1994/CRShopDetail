@@ -9,7 +9,7 @@
 #import "CRProductLayout.h"
 #import <YYCategories/YYCategories.h>
 
-static const CGFloat kBottomViewH = 62.f;
+static const CGFloat kBottomViewH = 80.f;
 
 @implementation CRProductLayout
 

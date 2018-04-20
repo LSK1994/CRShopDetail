@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CRSegmentItemBase.h"
 
-@interface CRMoments : UIView
+/**
+ 店铺微淘
+ */
+@interface CRMomentsView : CRSegmentItemBase
+
+@property (copy, nonatomic) NSString *momentsURL;
 
 @end

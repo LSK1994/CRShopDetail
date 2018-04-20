@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CRDetailModel.h"
+@class CRDetailModel;
 #import "CRSegmentItemBase.h"
 
+/**
+ 全部宝贝
+ */
 @interface CRAllProductView : CRSegmentItemBase
 
-@property (strong, nonatomic) CRDetailModel *detailModel;
+@property (strong, nonatomic) CRDetailModel *model;
 
 @end

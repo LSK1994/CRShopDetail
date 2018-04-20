@@ -11,4 +11,6 @@
 
 @interface CRSegmentCell : CRTableViewCell
 
+@property (strong, nonatomic) CRDetailModel *model;
+
 @end

@@ -7,8 +7,10 @@ def pods
     pod 'Masonry'
     pod 'SDWebImage'
     pod 'YYCategories'
+    pod 'YYModel'
     pod 'HMSegmentedControl'
     pod 'MBProgressHUD'
+    pod 'MJRefresh'
 end
 
 target 'CRShopDetailDemo' do

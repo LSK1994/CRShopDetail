@@ -1,16 +1,16 @@
 //
-//  CRHomeView.m
+//  CRMoments.m
 //  CRShopDetailDemo
 //
 //  Created by roger wu on 19/04/2018.
 //  Copyright © 2018 cocoaroger. All rights reserved.
 //
 
-#import "CRHomeView.h"
+#import "CRMomentsView.h"
 #import <WebKit/WebKit.h>
 #import <Masonry/Masonry.h>
 
-@implementation CRHomeView {
+@implementation CRMomentsView{
     WKWebView *_webView;
 }
 
@@ -30,15 +30,14 @@
 
 - (void)setup {
     _webView = [WKWebView new];
-    _webView.scrollView.bounces = NO;
     [self addSubview:_webView];
     [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
 }
 
-- (void)setHomeURL:(NSString *)homeURL {
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:homeURL]];
+- (void)setMomentsURL:(NSString *)momentsURL {
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:momentsURL]];
     [_webView loadRequest:request];
 }
 

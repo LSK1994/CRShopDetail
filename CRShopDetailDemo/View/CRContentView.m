@@ -39,8 +39,8 @@
               contentDelegate:(id<CRContentViewDelegate>)contentDelegate
                   detailModel:(CRDetailModel *)detailModel {
     if (self = [super initWithFrame:frame]) {
-        self.contentDelegate = contentDelegate;
-        self.detailModel = detailModel;
+        _contentDelegate = contentDelegate;
+        _detailModel = detailModel;
         [self setup];
     }
     return self;
@@ -111,6 +111,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     CRSegmentCell *cell = [CRSegmentCell cellWithTableView:tableView];
+    cell.model = _detailModel;
     return cell;
 }
 

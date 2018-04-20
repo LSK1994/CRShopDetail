@@ -11,7 +11,7 @@
 @implementation CRConst
 
 + (CGFloat)kHeaderViewHeight {
-    return kScreenWidth * (150.0/375.0);
+    return kScreenWidth * (120.0/375.0);
 }
 
 @end

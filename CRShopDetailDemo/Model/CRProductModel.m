@@ -10,4 +10,22 @@
 
 @implementation CRProductModel
 
++ (NSDictionary *)modelCustomPropertyMapper {
+    return @{@"cover" : @"img",
+             @"name" : @"title"};
+}
+
+- (NSURL *)coverURL {
+    NSString *coverStr = [NSString stringWithFormat:@"https:%@", _cover];
+    return [NSURL URLWithString:coverStr];
+}
+
+- (NSString *)priceShow {
+    return [NSString stringWithFormat:@"￥%@", _price];
+}
+
+- (NSString *)soldShow {
+    return [NSString stringWithFormat:@"月销%@笔", _sold];
+}
+
 @end

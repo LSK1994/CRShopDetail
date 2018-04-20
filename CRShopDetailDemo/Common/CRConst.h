@@ -30,6 +30,7 @@ static const CGFloat kSafeAreaLayoutGuideBottomHeight = 34;
 #define kSeperatorLineColor rgba(227,227,227,1)
 #define kLightGrayColor rgba(153,153,153,1)
 #define kBackgroundColor rgba(245,245,245,1)
+#define kImageBackgroundColor rgba(230,230,230,1)
 
 @interface CRConst : NSObject
 

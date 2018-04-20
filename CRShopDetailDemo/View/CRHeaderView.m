@@ -61,14 +61,14 @@ static const CGFloat kPortraitWH = 30;
     
     [_nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self->_portraitImageView.mas_right).offset(10);
-        make.top.equalTo(self->_portraitImageView.mas_top).offset(10);
-        make.right.mas_lessThanOrEqualTo(-100);
+        make.top.equalTo(self->_portraitImageView.mas_top).offset(2);
+        make.right.lessThanOrEqualTo(self->_fansCountLabel.mas_left).offset(-10);
     }];
     
     [_fansCountLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.mas_equalTo(-50);
         make.bottom.mas_equalTo(-10);
-        make.width.mas_greaterThanOrEqualTo(100);
+        make.width.mas_greaterThanOrEqualTo(10);
     }];
 }
 
