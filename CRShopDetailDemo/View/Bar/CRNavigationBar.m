@@ -16,8 +16,9 @@ static const CGFloat kRedDotViewWH = 14;
 static const CGFloat kMargin = 15;
 
 #define kNormalColor [UIColor whiteColor]
-#define kHighlightColor kMainColor
-#define kSearchTintColor rgba(153,153,153,1)
+#define kHighlightColor kBlackColor
+
+#define kSearchButtonHighlightColor rgba(240,240,240,1)
 #define kPlaceholderNormalColor rgba(200,200,200,1)
 #define kPlaceholderHighlightColor rgba(180,180,180,1)
 #define kRedDotColor [UIColor redColor]
@@ -77,7 +78,7 @@ static const CGFloat kMargin = 15;
     _searchImageView = [UIImageView new];
     UIImage *searchImage = [[UIImage imageNamed:@"search_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     _searchImageView.image = searchImage;
-    _searchImageView.tintColor = kSearchTintColor;
+    _searchImageView.tintColor = kPlaceholderNormalColor;
     [_searchButton addSubview:_searchImageView];
     
     _searchPlaceholderLabel = [UILabel new];
@@ -144,7 +145,7 @@ static const CGFloat kMargin = 15;
     }];
     
     [_searchPlaceholderLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self->_searchImageView.mas_right).offset(10);
+        make.left.equalTo(self->_searchImageView.mas_right).offset(5);
         make.centerY.equalTo(self->_searchButton);
     }];
     
@@ -182,14 +183,18 @@ static const CGFloat kMargin = 15;
         _backButton.tintColor = kHighlightColor;
         _categoryButton.tintColor = kHighlightColor;
         _moreButton.tintColor = kHighlightColor;
-        _searchButton.tintColor = kHighlightColor;
+        _searchButton.backgroundColor = kSearchButtonHighlightColor;
+        _searchImageView.tintColor = kPlaceholderHighlightColor;
         _searchPlaceholderLabel.textColor = kPlaceholderHighlightColor;
+        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
     } else {
         _backButton.tintColor = kNormalColor;
         _categoryButton.tintColor = kNormalColor;
         _moreButton.tintColor = kNormalColor;
-        _searchButton.tintColor = [UIColor whiteColor];
+        _searchButton.backgroundColor = kNormalColor;
+        _searchImageView.tintColor = kPlaceholderNormalColor;
         _searchPlaceholderLabel.textColor = kPlaceholderNormalColor;
+        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     }
 }
 

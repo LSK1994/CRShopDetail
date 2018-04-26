@@ -30,11 +30,11 @@
 
 - (void)setup {
     _webView = [WKWebView new];
-    _webView.scrollView.bounces = NO;
     [self addSubview:_webView];
     [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
+    [self setupWithScrollView:_webView.scrollView];
 }
 
 - (void)setHomeURL:(NSString *)homeURL {

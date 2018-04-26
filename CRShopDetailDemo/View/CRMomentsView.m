@@ -34,6 +34,7 @@
     [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
+    [self setupWithScrollView:_webView.scrollView];
 }
 
 - (void)setMomentsURL:(NSString *)momentsURL {
