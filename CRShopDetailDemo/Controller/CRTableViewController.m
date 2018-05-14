@@ -9,7 +9,7 @@
 #import "CRTableViewController.h"
 #import "CRDetailController.h"
 
-@interface CRTableViewController ()
+@interface CRTableViewController ()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -23,8 +23,17 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:NO];
-    self.navigationController.interactivePopGestureRecognizer.enabled = YES;
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    
+    
+    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+        self.navigationController.interactivePopGestureRecognizer.delegate = self;
+    }
+}
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning {
