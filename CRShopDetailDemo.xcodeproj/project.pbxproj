@@ -36,6 +36,7 @@
 		DB876985208992610022E1B0 /* CRRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB876984208992610022E1B0 /* CRRefreshFooter.m */; };
 		DB8769882089C1790022E1B0 /* MBProgressHUD+CRExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8769872089C1790022E1B0 /* MBProgressHUD+CRExtention.m */; };
 		DB87698A2089D9240022E1B0 /* product_list in Resources */ = {isa = PBXBuildFile; fileRef = DB8769892089D9240022E1B0 /* product_list */; };
+		DB87698D209471930022E1B0 /* CRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87698C209471930022E1B0 /* CRTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,8 @@
 		DB8769862089C1790022E1B0 /* MBProgressHUD+CRExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+CRExtention.h"; sourceTree = "<group>"; };
 		DB8769872089C1790022E1B0 /* MBProgressHUD+CRExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+CRExtention.m"; sourceTree = "<group>"; };
 		DB8769892089D9240022E1B0 /* product_list */ = {isa = PBXFileReference; lastKnownFileType = text; path = product_list; sourceTree = "<group>"; };
+		DB87698B209471930022E1B0 /* CRTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRTableViewController.h; sourceTree = "<group>"; };
+		DB87698C209471930022E1B0 /* CRTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTableViewController.m; sourceTree = "<group>"; };
 		E79E276C80002E5A1ADE8E93 /* Pods-CRShopDetailDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRShopDetailDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRShopDetailDemo/Pods-CRShopDetailDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,6 +219,8 @@
 		DB87693F208743870022E1B0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DB87698B209471930022E1B0 /* CRTableViewController.h */,
+				DB87698C209471930022E1B0 /* CRTableViewController.m */,
 				DB8769402087462B0022E1B0 /* CRDetailController.h */,
 				DB8769412087462B0022E1B0 /* CRDetailController.m */,
 			);
@@ -407,6 +412,7 @@
 				DB876960208892FE0022E1B0 /* HMSegmentedControl+CRExtention.m in Sources */,
 				DB87696E2088CC180022E1B0 /* CRAllProductView.m in Sources */,
 				DB8769752088CD0E0022E1B0 /* CRMomentsView.m in Sources */,
+				DB87698D209471930022E1B0 /* CRTableViewController.m in Sources */,
 				DB876982208986F80022E1B0 /* CRProductCell.m in Sources */,
 				DB876951208886BD0022E1B0 /* CRNavigationBar.m in Sources */,
 				DB87694E208756B80022E1B0 /* CRConst.m in Sources */,
@@ -548,7 +554,10 @@
 				DEVELOPMENT_TEAM = T8G9PLFU8G;
 				INFOPLIST_FILE = CRShopDetailDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoaroger.CRShopDetailDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "915e2d62-e85d-43ac-a32c-0506fc935a08";
@@ -566,7 +575,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CRShopDetailDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoaroger.CRShopDetailDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

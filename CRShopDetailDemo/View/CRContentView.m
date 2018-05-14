@@ -126,7 +126,7 @@
     [self.contentDelegate contentView:self offsetY:offsetY];
     
     _isSegmentToTopPre = _isSegmentToTop;
-    if (offsetY >= segmentOffsetY) { // 到顶端
+    if (offsetY >= segmentOffsetY) { // segment 到顶端
         scrollView.contentOffset = CGPointMake(0, segmentOffsetY);
         _isSegmentToTop = YES;
     } else {

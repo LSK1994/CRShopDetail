@@ -116,7 +116,7 @@
 
 #pragma mark - CRNavigationBarDelegate
 - (void)navigationBarClickedBack:(CRNavigationBar *)navigationBar {
-    [MBProgressHUD cr_showToastWithText:@"返回"];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)navigationBarClickedSearch:(CRNavigationBar *)navigationBar {

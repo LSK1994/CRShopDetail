@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CRDetailController.h"
+#import "CRTableViewController.h"
 #import <sys/utsname.h>
 
 @interface AppDelegate ()
@@ -19,8 +20,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    CRDetailController *detailVC = [CRDetailController new];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detailVC];
+//    CRDetailController *detailVC = [CRDetailController new];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:detailVC];
+    
+    CRTableViewController *tableVC = [CRTableViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tableVC];
+    
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
